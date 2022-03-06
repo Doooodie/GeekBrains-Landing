@@ -1,0 +1,226 @@
+.heading-m,
+.footer-bottom-list-container {
+  letter-spacing: 0.05em;
+}
+
+.heading-l,
+.heading-s,
+.paragraph,
+a {
+  letter-spacing: 0.04em;
+}
+
+.heading-l {
+  font-weight: 500;
+  font-size: 44px;
+  text-align: center;
+  padding: 51px 0 16px 0;
+  color: #ffffff;
+}
+
+.header-bottom {
+  margin-top: 54px;
+  background-image: url(../img/contacts/header-bg.svg);
+  background-size: cover;
+}
+
+.header-bottom-container {
+  max-width: 780px;
+}
+
+.top-heading-s {
+  text-align: center;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 49px;
+}
+
+.main-container {
+  margin: 57px auto 112px auto;
+  max-width: 940px;
+}
+
+.main-top {
+  margin-bottom: 96px;
+}
+
+.main-top-left {
+  margin-top: 78px;
+}
+
+.infocard-heading {
+  font-weight: 500;
+  margin: 40px 0 24px 0;
+}
+
+.address-heading {
+  margin-top: 56px;
+}
+
+.infocard-list {
+  list-style-type: none;
+}
+
+.first-infocard-container {
+  margin-bottom: 12px;
+}
+
+.infocard-description {
+  max-width: 300px;
+  line-height: 26px;
+  color: #1f3f68;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.infocard-link {
+  font-weight: normal;
+  letter-spacing: 0.05em;
+}
+
+.main-top-right {
+  box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+
+.top-right-heading {
+  margin: 56px 0 48px 0;
+}
+
+.form-container {
+  margin: 56px;
+}
+
+.input-container {
+  margin-bottom: 32px;
+}
+
+.input-description {
+  line-height: 30px;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.input-field {
+  border: 1px solid #356ead;
+  border-radius: 10px;
+  opacity: 0.4;
+  width: 428px;
+  height: 72px;
+}
+
+.textarea {
+  resize: none;
+  height: 144px;
+}
+
+.textarea-container {
+  margin-bottom: 72px;
+}
+
+.input-field::placeholder {
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+  opacity: 0.2;
+  padding: 21px 0 21px 36px;
+}
+
+.submit-button {
+  padding: 23px 183px;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+}
+
+@media (max-width: 1024px) {
+  .top-heading-s {
+    max-width: 520px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+
+  .main-container {
+    margin-top: 64px;
+  }
+
+  .main-top-left {
+    margin-top: initial;
+    margin-bottom: 64px;
+  }
+
+  .infocard-heading.address-heading {
+    margin-top: 64px;
+  }
+}
+
+@media (max-width: 667px) {
+  .header-bottom {
+    margin-top: 30px;
+  }
+
+  .heading-l {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .top-heading-s {
+    font-size: 16px;
+    letter-spacing: initial;
+    max-width: 341px;
+  }
+
+  .main-container {
+    margin: 46px auto 32px auto;
+  }
+
+  .main-top {
+    margin-bottom: 32px;
+  }
+
+  .infocard-heading {
+    margin-top: 32px;
+  }
+
+  .first-infocard-container {
+    margin-bottom: 16px;
+  }
+
+  .main-top-left {
+    margin-bottom: 32px;
+  }
+
+  .form-container {
+    margin: 36px;
+  }
+
+  .top-right-heading {
+    font-size: 16px;
+    margin: initial;
+    margin-bottom: 32px;
+  }
+
+  .input-container {
+    margin-bottom: 20px;
+  }
+
+  .input-description {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .input-field {
+    width: 271px;
+    height: 42px;
+  }
+
+  .textarea-container {
+    margin-bottom: 46px;
+  }
+
+  .textarea {
+    height: 92px;
+  }
+
+  .submit-button {
+    padding: 15px 103px;
+  }
+}
